@@ -167,7 +167,7 @@ void display_trip(list<Goat> trip){
     else{ // Outputs every goat in the list with index 
         cout << "Here is the list of all goats from the trip:" << endl;
         for(auto g : trip){
-            cout << "[" << count << "] " << g.get_name() << "(" << g.get_age() << ", " << g.get_color() << ")" << endl;
+            cout << "    [" << count << "] " << g.get_name() << "(" << g.get_age() << ", " << g.get_color() << ")" << endl;
             count++;
         }
     }
